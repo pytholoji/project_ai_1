@@ -23,8 +23,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Modeli eğit
-model.fit
-(x_train, y_train, epochs=5)
+model.fit(x_train, y_train, epochs=5)
 
 # Modeli test et
 test_loss, test_acc = model.evaluate(x_test, y_test)
@@ -34,5 +33,4 @@ print(f"Test doğruluk oranı: {test_acc:.2f}")
 predictions = model.predict(x_test)
 plt.imshow(x_test[0], cmap=plt.cm.binary)
 plt.title(f"Tahmin: {np.argmax(predictions[0])}")
-plt.show
-()
+plt.show()
