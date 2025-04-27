@@ -15,7 +15,9 @@
   3. **Python ortamı oluştur.**
   - Öncelikle python sürümünü 3.12.8 olarak değiştir.
   - Linux'ta pyenv kullanılabilir. `pyenv virtualenv 3.12.8 yapayzeka` bu aynı zamanda yeni venv açar.
-  - Windows'ta [python.org](https://www.python.org/downloads/release/python-3128/) sitesinden Windows installer'ı indir. NOT: Açacağınız sanal ortam project_ai_1 git klasörünün dışında olmasında fayda var. Sonrasında: `python -m venv yapayzeka` yazarak yeni ortamını oluştur. (linux için de aynısı)
+  - Windows'ta [python.org](https://www.python.org/downloads/release/python-3128/) sitesinden Windows installer'ı indir.
+  - ***NOT: Açacağınız sanal ortam project_ai_1 git klasörünün dışında olmasında fayda var.***_
+  - Sonrasında: `python -m venv yapayzeka` yazarak yeni ortamını oluştur. (linux için de aynısı)
   4. **Python sanal ortamını aktive et.**
   - pyenv kullanarak: `pyenv activate yapayzeka` -> 'yapayzeka' yerine sizin venv'e verdiğiniz ismi giriniz.
   - Windows'ta : `yapayzeka\Scripts\activate` -> 'yapayzeka' yerine sizin venv'e verdiğiniz ismi giriniz.
